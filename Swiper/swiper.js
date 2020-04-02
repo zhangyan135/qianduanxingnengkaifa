@@ -23,7 +23,7 @@ var $swiper=(function(){
       $box=$('#box'),
       len=$slider.children().length;
   function rfover(){
-    $('.slider').hover(function(){
+    $('.box').hover(function(){
     
       $('span[id="left"]').css('opacity',1);
       $('span[id="right"]').css('opacity',1)
